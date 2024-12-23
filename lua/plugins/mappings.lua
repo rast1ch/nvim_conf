@@ -20,6 +20,13 @@ return {
           -- tables with just a `desc` key will be registered with which-key if it's installed
           -- this is useful for naming menus
           ["<Leader>b"] = { desc = "Buffers" },
+          ["<Leader><Leader>"] = {
+            function ()
+              require("lsp-toggle");
+              vim.cmd("ToggleLSP")
+            end,
+            desc = "Toogle LSP"
+          }
           -- quick save
           -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
         },
