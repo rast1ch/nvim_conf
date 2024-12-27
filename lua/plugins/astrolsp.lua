@@ -31,7 +31,7 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      "basedpyright",
+      "pyright",
       "ruff",
     },
     -- customize language server configuration options passed to `lspconfig`
