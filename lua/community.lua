@@ -10,6 +10,7 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.angular" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.completion.copilot-lua" },
   -- import/override with your plugins folder
   --
